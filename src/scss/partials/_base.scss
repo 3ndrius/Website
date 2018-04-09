@@ -1,0 +1,49 @@
+html{ 
+    color:$f-color;
+    font-family: $f-font;
+    font-weight:$w-font;
+}
+
+
+.btn, .btn-invert{
+    border-radius:36px;
+    padding:10px 30px;
+    color:$gradient01;
+    background-color: $sf-color;
+    border:none;
+    font-size:0.5em;
+
+    &:hover{
+        color:$gradient02;
+        cursor:pointer;
+        background-color:$c-border;
+
+    }
+    
+}
+.btn-invert{
+    color:$sf-color;
+    background:$background-gradient;
+    font-size: 0.7em;
+    &:hover{
+        color:rgb(175, 173, 173);
+    }
+}
+.main-container{
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+//span color dot
+
+.color{
+    color:$gradient01;
+}
+
+.border{
+    color:$c-border;
+    opacity:0.3;
+}
+///
+
