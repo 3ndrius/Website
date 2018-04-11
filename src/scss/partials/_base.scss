@@ -1,3 +1,17 @@
 body{
-    
+    background-color: $main-color;
+}
+
+
+
+.btn{
+    border: 2px solid $f-color;
+    background-color:rgba(255, 0, 0, 0);
+    color:$w-font;
+    border-radius:30px;
+    padding:10px 30px;
+}
+
+.color{
+    color:$f-color;
 }
