@@ -1,6 +1,16 @@
-
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+   margin:20px 10%;
+}
+.logo{
+    width: 100%;
+}
 .menu{
     position:relative;
+    flex:1;
 
     .strip{
         height: 5px;
