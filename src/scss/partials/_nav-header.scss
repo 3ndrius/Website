@@ -1,0 +1,32 @@
+
+.menu{
+    position:relative;
+
+    .strip{
+        height: 5px;
+        width: 40px;
+        background: white;
+        position:absolute;
+        top:0;
+        left:0;
+    &::before{
+        content: " ";
+        position:absolute;
+        top:10px;
+        left:0;
+        height: 5px;
+        width: 40px;
+        background: white;
+    }
+    &::after{
+        content: " ";
+        position:absolute;
+        top:20px;
+        left:0;
+        height: 5px;
+        width: 40px;
+        background: white;
+    }
+
+    }
+}
