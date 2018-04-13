@@ -1,23 +1,22 @@
-.features{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    font-size:1.5em;
-    
+.features {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.5em;
 }
-.left{
-    padding: 0 5% 0 0;
-    img{
-        height: 100%;
-        width: auto;
-        background-size:cover;
-    }
+.left {
+  padding: 0 5% 0 0;
+  img {
+    height: 100%;
+    width: auto;
+    background-size: cover;
+  }
 }
-.right{
-    padding: 0 10% 0 5%;
+.right {
+  padding: 0 10% 0 5%;
 
-    p{
-        color:$p-color;
-        line-height: 1.5em;
-    }
+  p {
+    color: $p-color;
+    line-height: 1.5em;
+  }
 }
