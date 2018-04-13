@@ -7,15 +7,21 @@
 }
 .logo {
   width: 100%;
+  display:flex;
+  justify-content: left;
+  align-items: center;
+  color:$w-font;
 }
 .menu {
   position: relative;
   flex: 1;
+  top:-10px;
+
 
   .strip {
-    height: 5px;
-    width: 40px;
-    background: white;
+    height: 4px;
+    width: 35px;
+    background: $f-color;
     position: absolute;
     top: 0;
     left: 0;
@@ -24,18 +30,18 @@
       position: absolute;
       top: 10px;
       left: 0;
-      height: 5px;
-      width: 40px;
-      background: white;
+      height: 4px;
+      width: 35px;
+      background: $f-color;
     }
     &::after {
       content: " ";
       position: absolute;
       top: 20px;
       left: 0;
-      height: 5px;
-      width: 40px;
-      background: white;
+      height: 4px;
+      width: 35px;
+      background: $f-color;
     }
   }
 }
