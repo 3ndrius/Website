@@ -395,7 +395,7 @@ body {
   height: 2000px; }
 
 .main-container {
-  width: 1920px;
+  max-width: 1920px;
   color: #ffffff;
   height: 100%;
   margin-left: auto;
@@ -471,7 +471,7 @@ body {
   align-items: center;
   justify-content: center; }
   .header-image .layer {
-    height: 800px; }
+    height: 600px; }
   .header-image img {
     height: 100%;
     width: auto;
@@ -484,14 +484,16 @@ body {
   font-size: 1.5em; }
 
 .left {
-  padding: 0 5% 0 0; }
+  padding: 0 5% 0 0;
+  flex: 1; }
   .left img {
     height: 100%;
     width: auto;
     background-size: cover; }
 
 .right {
-  padding: 0 10% 0 5%; }
+  padding: 0 10% 0 5%;
+  flex: 1; }
   .right p {
     color: #66778e;
     line-height: 1.5em; }
