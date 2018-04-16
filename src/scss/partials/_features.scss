@@ -18,7 +18,8 @@
   flex:1;
 
   p {
-    color: $p-color;
+    color:$w-font;
+    opacity:0.4;
     line-height: 1.5em;
   } 
 }
