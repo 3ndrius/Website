@@ -411,6 +411,9 @@ body {
 .color {
   color: #2a5da3; }
 
+i {
+  color: #c22c32; }
+
 .nav-header {
   display: flex;
   align-items: center;
@@ -529,3 +532,19 @@ body {
 
 .grid-right {
   flex: 1; }
+
+.third-features {
+  display: flex;
+  padding: 5% 0 0 5%; }
+
+.fea-left {
+  margin-right: 30px;
+  flex: 1.4; }
+  .fea-left p {
+    opacity: .4; }
+
+.fea-right {
+  flex: 2; }
+  .fea-right img {
+    width: 100%;
+    height: auto; }

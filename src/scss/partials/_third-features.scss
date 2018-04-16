@@ -1,0 +1,22 @@
+.third-features{
+    display: flex;
+    padding: 5% 0 0 5%;
+    
+}
+.fea-left{
+
+margin-right: 30px;
+flex:1.4;
+p{
+    opacity: .4;
+}
+
+}
+
+.fea-right {
+    flex:2;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
