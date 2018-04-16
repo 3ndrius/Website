@@ -391,15 +391,17 @@ template {
   display: none; }
 
 body {
-  background-image: url("/images/layer-5.png");
-  height: 2000px; }
+  background-color: #0a2345; }
 
 .main-container {
   max-width: 2000px;
+  background-image: url("/images/layer-5.png");
   color: #ffffff;
   height: 100%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .btn {
   border: 2px solid #2a5da3;
@@ -461,12 +463,12 @@ i {
       background: #2a5da3; }
 
 .header {
-  margin-bottom: 15%; }
+  margin-bottom: 10%; }
 
 .header-text {
   text-align: center;
-  padding: 50px;
-  margin-bottom: 20%; }
+  padding: 30px 50px;
+  margin-bottom: 10%; }
 
 .header-image {
   background-image: url("/images/layermusic.png");
@@ -490,7 +492,7 @@ i {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 30%; }
+  margin-top: 20%; }
 
 .left {
   padding: 0 5% 0 0;
@@ -509,7 +511,7 @@ i {
     line-height: 1.5em; }
 
 .second-features {
-  margin-top: 11%;
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -541,8 +543,8 @@ i {
 .third-features {
   display: flex;
   padding: 5% 0 0 5%;
-  margin-bottom: 11%;
-  margin-top: 5%; }
+  margin-bottom: 5%;
+  margin-top: 3%; }
 
 .fea-left {
   margin-right: 30px;
@@ -601,7 +603,7 @@ i {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 10%;
+  padding: 5% 10%;
   align-items: center; }
 
 .text {
