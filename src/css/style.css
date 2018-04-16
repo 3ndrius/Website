@@ -461,8 +461,8 @@ i {
 
 .header-text {
   text-align: center;
-  padding: 30px 50px 50px 50px;
-  margin-bottom: 10%; }
+  padding: 50px;
+  margin-bottom: 20%; }
 
 .header-image {
   background-image: url("/images/layermusic.png");
@@ -485,7 +485,8 @@ i {
 .features {
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  margin-top: 30%; }
 
 .left {
   padding: 0 5% 0 0;
@@ -504,7 +505,7 @@ i {
     line-height: 1.5em; }
 
 .second-features {
-  margin-top: 5%;
+  margin-top: 11%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -535,13 +536,15 @@ i {
 
 .third-features {
   display: flex;
-  padding: 5% 0 0 5%; }
+  padding: 5% 0 0 5%;
+  margin-bottom: 11%;
+  margin-top: 5%; }
 
 .fea-left {
   margin-right: 30px;
   flex: 1.4; }
   .fea-left p {
-    opacity: .4; }
+    opacity: 0.4; }
 
 .fea-right {
   flex: 2; }
@@ -557,11 +560,12 @@ i {
   background-image: url("/images/layer-11.png");
   width: 100%;
   height: 350px;
-  padding: 0 15%;
+  padding: 16% 20%;
   box-sizing: border-box;
   text-align: center; }
   .slider h5 {
-    opacity: 0.4; }
+    opacity: 0.4;
+    line-height: 2em; }
 
 .author {
   display: flex;
@@ -587,3 +591,30 @@ i {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.discover {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10%;
+  align-items: center;
+  background-color: #03070f; }
+
+.text {
+  text-align: center; }
+  .text p {
+    opacity: 0.4; }
+
+.figure img {
+  height: auto;
+  width: 100%; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3%; }
+
+.footer-menu li {
+  display: inline-block;
+  margin-right: 5px; }

@@ -1,0 +1,21 @@
+.discover {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10%;
+  align-items: center;
+  background-color: #03070f;
+}
+.text {
+  text-align: center;
+
+  p {
+    opacity: 0.4;
+  }
+}
+.figure {
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
