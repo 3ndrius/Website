@@ -3,7 +3,7 @@
 }
 .header-text {
   text-align: center;
-  padding: 0 0 50px 0;
+  padding: 0 50px 50px 50px;
   margin-bottom: 10%;
 }
 
@@ -11,22 +11,24 @@
  
   background-image: url("/images/layermusic.png");
   height: 350px;
-  width: 100%;
+ 
   background-position: center;
   background-size: cover;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+
+}
+.layer{
+  height: 600px;
+  display:flex;
   justify-content: center;
+  align-items: center;
 
-
-
-  .layer{
-    height: 600px;
-  }
-  img {
-    height: 100%;
-    width: auto;
-    background-size:cover;
-    
-  }
+img {
+  height: auto;
+  width: 100%;
+  
+ 
+}
 }
