@@ -1,35 +1,29 @@
-.header{
+.header {
   margin-bottom: 10%;
 }
 .header-text {
   text-align: center;
   padding: 30px 50px;
   margin-bottom: 10%;
-
 }
 
 .header-image {
- 
   background-image: url("/images/layermusic.png");
   height: 350px;
- 
+
   background-position: center;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: space-around;
-
 }
-.layer{
-  
-  display:flex;
+.layer {
+  display: flex;
   justify-content: center;
   align-items: center;
 
-img {
-  height: auto;
-  width: 100%;
-  
- 
-}
+  img {
+    height: auto;
+    width: 100%;
+  }
 }

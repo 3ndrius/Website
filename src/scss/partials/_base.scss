@@ -1,8 +1,5 @@
 body {
-  
- background-color: $main-color;
-
-  
+  background-color: $main-color;
 }
 
 .main-container {
@@ -13,7 +10,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
 
 .btn {
@@ -31,7 +28,7 @@ body {
 i {
   color: $icon-color;
 }
-.line{
+.line {
   border: 1px solid $f-color;
-  opacity:0.1;
+  opacity: 0.1;
 }
