@@ -15,5 +15,10 @@
     li{
         display:inline-block;
         margin-right: 5px;
+
+        &:hover{
+            cursor:pointer;
+            color:$sf-color;
+        }
     }
 }
