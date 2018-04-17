@@ -11,11 +11,18 @@
   justify-content: left;
   align-items: center;
   color:$w-font;
+
+  img{
+   width:  63px;
+   height: 47px;
+   padding-right: 9px;
+  }
 }
 .menu {
   position: relative;
   flex: 1;
   top:-10px;
+  right:10px;
 
 
   .strip {
